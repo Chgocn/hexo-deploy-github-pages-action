@@ -45,7 +45,7 @@ echo ">>> Install NPM dependencies ..."
 npm install
 
 echo ">>> Print Hexo version ..."
-hexo version
+npx hexo version
 
 echo ">>> Clean folder ..."
 npx hexo clean
