@@ -44,6 +44,9 @@ cd "${GITHUB_WORKSPACE}"
 echo ">>> Install NPM dependencies ..."
 npm install
 
+echo ">>> Print Hexo version ..."
+hexo version
+
 echo ">>> Clean folder ..."
 npx hexo clean
 
